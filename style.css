@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+   font-family:'Lato', sans-serif !important; 
+}
+.arch-image{
+    background-image: url(images/arch_1.jpg);
+    padding:20px 0;
+}
+.arch-image .container {
+   text-align: center;
+}
+
+.section-3{
+    align-items: center;
+}
+.team{
+    display: flex;
+}
+
+.section-3 .col-3{
+    flex:0 0 25%;
+}
+.dsn-color{
+    color:#a13d63;
+}
+.dsn-text-color{
+   color: #6a6972;
+}
+.line{
+    background-color: #a13d63;
+    height:5px;
+    width:130px;
+}
+.border{
+    border-color:#a13d63 !important;
+}
+.container{
+    width:75%;
+}
+
+
+
+ @media screen and (max-width:650px){
+    .container{
+        width:100%;
+    }
+ }
